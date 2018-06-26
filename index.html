@@ -26,7 +26,6 @@
             <h3>
                 <br>One Account.
                 <br>Everything Intuit.
-                <br>
             </h3>
             <p>
                 <br>Sign in to your Intuit account to access all of our</p>
@@ -36,14 +35,22 @@
         </div>
         <div id="form-section">
             <form action="" method="get">
-                <label class="label-block" for="email">Email or user ID</label>
-                <input type="email" name="email" required>
-                <label class="label-block" for="password">Password</label>
-                <input type="text" name="password" required>
-                <input type="checkbox" name="remember">
-                <label id"remember-me"for="remember">Remember me</label>
-                <button id="sign-in-button">
-                    <i class="fas fa-lock fa-inverse"></i> Sign In</button>
+                <div id="first-div">
+                    <label class="label-block" for="email">Email or user ID</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div id="second-div">
+                    <label class="label-block" for="password">Password</label>
+                    <input type="text" name="password" required>
+                </div>
+                <div id="third-div">
+                    <input type="checkbox" name="remember">
+                    <label id "remember-me"for="remember">Remember me</label>
+                </div>
+                <div id="fourth-div">
+                    <button id="sign-in-button">
+                        <i class="fas fa-lock fa-inverse"></i> Sign In</button>
+                </div>
             </form>
         </div>
         <div id="footer">
@@ -61,8 +68,23 @@
                 <a href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dnav_login_dropdown">Create an account</a>.</p>
         </div>
         <div id="ground">
-            <p>Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of Use</a>.</p>
+            <p>Invisible reCAPTCHA by Google
+                <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and
+                <a href="https://policies.google.com/terms?hl=en">Terms of Use</a>.</p>
         </div>
+
+    </div>
+    <div id="underground">
+        <p>Mint bill pay services provided by Intuit Payments Inc. under applicable
+            <a href="https://www.intuit.com/legal/outbound-licenses/">licenses</a>.</p>
+        <p>
+            <a href="https://www.intuit.com/legal/">Legal</a>
+            <a href="https://security.intuit.com/index.php/privacy">Privacy</a>
+            <a href="http://security.intuit.com/">Security</a>
+        </p>
+        <p>© 2018 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks
+            of Intuit Inc.</p>
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </div>
 </body>
 

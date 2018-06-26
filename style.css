@@ -26,7 +26,7 @@ body{
     background-color: white;
     border: 1px solid rgb(199,199,199);
     width: 375px;
-    height: 700px;
+    height: auto;
     margin: 0 auto;
     border-radius: 2px;
 }
@@ -36,6 +36,8 @@ body{
     text-align: center;
     color: #4c4c4c;
     line-height: 1.1;
+    font-weight: 400;
+    margin: 0 auto 20px auto;
 }
 
 #heading h3 {
@@ -46,6 +48,7 @@ body{
 
 #heading p {
     font-size: 14px;
+
 }
 
 #sign-in-button {
@@ -61,11 +64,14 @@ body{
     height: auto; 
     display: block;
     margin: 0 auto;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.75)
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.75);
+    padding: 6px 12px 6px 12px;
 }
 
 [type="email"],[type="text"] {
     width: 275px;
+    height: 25px;
+
 }
 
 #form-section {
@@ -76,12 +82,21 @@ body{
     font-size: 14px;
 }
 
+#first-div, #second-div {
+    padding: 20px auto;
+
+}
+#third-div {
+    padding: 5px auto;
+}
 #footer {
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     font-size: 12px;
     font-style: italic;
     color: rgb(187,187,187);
+    padding: 13px 5px 20px 5px;
+    line-height: 1.5
 }
 
 #toer {
@@ -91,6 +106,8 @@ body{
     width: 281px;
     border-top: 1px solid rgb(226,225,225);
     text-align: center;
+    padding: 20px 5px 30px 5px;
+    line-height: 1.5
 }
 
 #ground {
@@ -99,4 +116,20 @@ body{
     font-size: 10px;
     color: rgb(141,144,150);
     text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+#underground {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #505050
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    padding: 20px auto;
 }
